@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_WebForms01_UI", "HelloWorld_WebForms01_UI\HelloWorld_WebForms01_UI.csproj", "{8629E0E7-7830-453A-AD45-828CA3EB2860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_WebForms_01_Entidades", "HelloWorld_WebForms_01_Entidades\HelloWorld_WebForms_01_Entidades.csproj", "{7FE23D21-84D8-4CB7-B3D9-1A6C40B61BC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_WebForms01_Entidades", "HelloWorld_WebForms01_Entidades\HelloWorld_WebForms01_Entidades.csproj", "{6F658177-DAF3-4EEB-90A6-A1391BD9504C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8629E0E7-7830-453A-AD45-828CA3EB2860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8629E0E7-7830-453A-AD45-828CA3EB2860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8629E0E7-7830-453A-AD45-828CA3EB2860}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FE23D21-84D8-4CB7-B3D9-1A6C40B61BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FE23D21-84D8-4CB7-B3D9-1A6C40B61BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FE23D21-84D8-4CB7-B3D9-1A6C40B61BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FE23D21-84D8-4CB7-B3D9-1A6C40B61BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F658177-DAF3-4EEB-90A6-A1391BD9504C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F658177-DAF3-4EEB-90A6-A1391BD9504C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F658177-DAF3-4EEB-90A6-A1391BD9504C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F658177-DAF3-4EEB-90A6-A1391BD9504C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

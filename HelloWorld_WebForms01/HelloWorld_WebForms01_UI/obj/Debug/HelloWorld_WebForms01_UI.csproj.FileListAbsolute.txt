@@ -56,3 +56,5 @@ C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms0
 C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_UI\obj\Debug\HelloWorld_WebForms01_UI.csproj.CoreCompileInputs.cache
 C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_UI\obj\Debug\HelloWorld_WebForms01_UI.dll
 C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_UI\obj\Debug\HelloWorld_WebForms01_UI.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_UI\bin\HelloWorld_WebForms01_Entidades.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_UI\bin\HelloWorld_WebForms01_Entidades.pdb

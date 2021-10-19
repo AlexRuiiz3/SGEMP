@@ -17,6 +17,18 @@ namespace HelloWorld_WebForms01_UI.Views
 
         protected void btnEnviar_Click(object sender, EventArgs e)
         {
+            ClsPersona persona;
+
+            if (String.IsNullOrEmpty(txtNombre.Text))
+            {
+                persona = new ClsPersona(txtNombre.Text);
+                lblError.Text = "Nombre no valido";
+                lblMensaje.Text = "";
+            }
+            else {
+                lblMensaje.Text = $"Hola {txtNombre.Text}";
+                lblError.Text = "";
+            }
 
         }
     }

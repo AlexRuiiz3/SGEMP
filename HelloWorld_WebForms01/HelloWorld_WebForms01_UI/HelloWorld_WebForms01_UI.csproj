@@ -96,6 +96,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld_WebForms01_Entidades\HelloWorld_WebForms01_Entidades.csproj">
+      <Project>{6f658177-daf3-4eeb-90a6-a1391bd9504c}</Project>
+      <Name>HelloWorld_WebForms01_Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,6 @@
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\bin\Debug\HelloWorld_WebForms01_Entidades.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\bin\Debug\HelloWorld_WebForms01_Entidades.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\obj\Debug\HelloWorld_WebForms01_Entidades.csproj.AssemblyReference.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\obj\Debug\HelloWorld_WebForms01_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\obj\Debug\HelloWorld_WebForms01_Entidades.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\HelloWorld_WebForms01\HelloWorld_WebForms01_Entidades\obj\Debug\HelloWorld_WebForms01_Entidades.pdb
