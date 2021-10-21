@@ -11,10 +11,46 @@
     <title>Index</title>
 </head>
 <body>
+    
     <div>
         <h1>Hola mundo desde la vista</h1>
         @Html.ActionLink("Ver listado de Productos", "ListadoProductos", "Productos")
 
+
+        <p>Hola, son las @DateTime.Now.Hour:@DateTime.Now.Minute</p>
+
+        @{
+          int hora = @DateTime.Now.Hour, minutos = @DateTime.Now.Minute;
+         }
+
+           @if (hora > 12)
+           {
+                <p>Hemos pasado de las 12 son las @hora:@minutos</p>
+           }
+           else{
+                <p> No hemos pasado de las 12 son las @hora: @minutos</p>
+           }
+
+           
+
+    <table>
+
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+
+        <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+
+    </table>
+
     </div>
+
+    
 </body>
 </html>
