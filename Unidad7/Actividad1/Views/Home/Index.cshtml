@@ -1,7 +1,21 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    Layout = null;
 }
+@model Actividad1.Models.ClsPersona
 
-<div class="text-center">
-    <p> @ViewData["MensajeSaludo"]</p>
-</div>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p> @ViewData["MensajeSaludo"]</p>
+        <p> @ViewBag.fechaActual</p>
+        <p> Nombre: @Model.nombre Apellidos: @Model.apellidos</p>
+    </div>
+</body>
+</html>

@@ -1,24 +1,24 @@
-﻿using Actividad1.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Actividad1.Gestion;
+using Actividad1.Models;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Web;
+using System.Web.Mvc;
 
 namespace Actividad1.Controllers
 {
     public class HomeController : Controller
     {
-
-        public IActionResult Index()
+        // GET: Home
+        public ActionResult Index()
         {
             ViewData["MensajeSaludo"] = Utilidad.obtenerMensaje();
             ViewBag.fechaActual = DateTime.Now.ToString();
 
-            return View();
-        }
+            ClsPersona persona = new ClsPersona("Alejandro", "Ruiz");
 
+            return View(persona);
+        }
     }
 }

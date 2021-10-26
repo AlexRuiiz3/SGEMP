@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Actividad1.Models
+namespace Actividad1.Gestion
 {
     public class Utilidad
     {
