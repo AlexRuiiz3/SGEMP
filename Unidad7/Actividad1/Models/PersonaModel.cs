@@ -3,13 +3,13 @@
 namespace Actividad1.Models
 
 {
-    public class ClsPersona
+    public class PersonaModel
     {
         public String nombre;
         public String apellidos;
 
        #region Constructor con parametros
-        public ClsPersona(String nombre, String apellidos)
+        public PersonaModel(String nombre, String apellidos)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;

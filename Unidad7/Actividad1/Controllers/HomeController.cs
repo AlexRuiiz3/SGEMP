@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Entidades;
+
 
 namespace Actividad1.Controllers
 {
@@ -16,9 +18,15 @@ namespace Actividad1.Controllers
             ViewData["MensajeSaludo"] = Utilidad.obtenerMensaje();
             ViewBag.fechaActual = DateTime.Now.ToString();
 
-            ClsPersona persona = new ClsPersona("Alejandro", "Ruiz");
+            PersonaModel persona = new PersonaModel("Alejandro", "Ruiz");
 
             return View(persona);
+        }
+
+        public ActionResult Index2()
+        {
+
+            return View();
         }
     }
 }
