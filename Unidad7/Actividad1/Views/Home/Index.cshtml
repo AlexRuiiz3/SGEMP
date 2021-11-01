@@ -16,6 +16,7 @@
         <p> @ViewData["MensajeSaludo"]</p>
         <p> @ViewBag.fechaActual</p>
         <p> Nombre: @Model.nombre Apellidos: @Model.apellidos</p>
+        @Html.ActionLink("Ver listado de personas","ListadoPersonas","Home");
     </div>
 </body>
 </html>

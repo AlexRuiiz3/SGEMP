@@ -105,7 +105,7 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\ListadoPersona.cshtml" />
+    <Content Include="Views\Home\ListadoPersonas.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,16 +117,12 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{cc0a2dff-7267-49f2-a4ea-6fc601167f84}</Project>
-      <Name>ClassLibrary1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Dal\Dal.csproj">
-      <Project>{1013d04c-3650-4303-b4ed-d0343d9b2d1c}</Project>
+      <Project>{c88c0619-b5a3-4987-b02a-70a9cf563172}</Project>
       <Name>Dal</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{e8c7523f-7f62-407f-a302-b9344ba82e62}</Project>
+      <Project>{ff4f1605-aaab-4a97-8fc3-64680ed5f483}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

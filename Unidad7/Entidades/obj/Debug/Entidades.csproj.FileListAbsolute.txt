@@ -1,0 +1,6 @@
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\bin\Debug\Entidades.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\bin\Debug\Entidades.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\obj\Debug\Entidades.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Entidades\obj\Debug\Entidades.pdb

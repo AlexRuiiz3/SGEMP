@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Entidades;
+using Dal;
 
 
 namespace Actividad1.Controllers
@@ -23,10 +24,10 @@ namespace Actividad1.Controllers
             return View(persona);
         }
 
-        public ActionResult Index2()
+        public ActionResult ListadoPersonas()
         {
-
-            return View();
+            List<ClsPersona> listaPersonas = GestoraPersonas.obtenerPersonas();
+            return View(listaPersonas);
         }
     }
 }

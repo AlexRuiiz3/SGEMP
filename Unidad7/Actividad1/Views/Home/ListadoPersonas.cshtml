@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+@model List<Entidades.ClsPersona>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListadoPersonas</title>
+</head>
+<body>
+    <div>
+        <table border="1">
+            <tr>
+                <td>NOMBRES</td>
+                <td>APELLIDOS</td>
+            </tr>
+
+            @foreach (Entidades.ClsPersona persona in @Model)
+
+            {
+                <tr>
+                    <td>@persona.Nombre</td>
+                    <td>@persona.Apellidos</td>
+                </tr>
+            }
+
+        </table>
+        @Html.ActionLink("Volver atras","Index","Home")
+    </div>
+</body>
+</html>

@@ -50,6 +50,8 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\ro
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\roslyn\vbc.rsp
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\roslyn\VBCSCompiler.exe
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Dal.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Entidades.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Helpers.dll
@@ -58,6 +60,8 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Sy
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Webpages.Deployment.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Webpages.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Webpages.Razor.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Dal.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Entidades.pdb
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Razor.xml
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Webpages.xml
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Webpages.Deployment.xml
@@ -65,6 +69,7 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Sy
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Helpers.xml
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\System.Web.Mvc.xml
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\obj\Debug\Actividad1.csproj.AssemblyReference.cache
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\obj\Debug\Actividad1.csproj.CoreCompileInputs.cache
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\obj\Debug\Actividad1.csproj.CopyComplete
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Actividad1\obj\Debug\Actividad1.dll

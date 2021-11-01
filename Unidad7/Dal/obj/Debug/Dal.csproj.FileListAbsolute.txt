@@ -1,0 +1,9 @@
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\bin\Debug\Dal.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\bin\Debug\Dal.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\bin\Debug\Entidades.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\bin\Debug\Entidades.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\obj\Debug\Dal.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad7\Dal\obj\Debug\Dal.pdb

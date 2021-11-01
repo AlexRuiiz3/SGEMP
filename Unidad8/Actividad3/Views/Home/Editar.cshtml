@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+@model Entidades.ClsPersona
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div> 
+        <input type="text" name="Nombre" value="@Model.Nombre"/>
+        <br />
+        @Html.TextBox("Apellidos")
+        <br />
+        @Html.TextBoxFor(edad => @Model.Edad)
+        <br />
+        <button type="submit">Enviar</button>
+    </div>
+</body>
+</html>
