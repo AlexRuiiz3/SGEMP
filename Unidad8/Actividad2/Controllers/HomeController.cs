@@ -14,12 +14,12 @@ namespace Actividad2.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpPost]//Aqui se llama siempre que se pulse un submit
         public ActionResult Index(String nombre)
         {
-            ViewBag.nombre = nombre;
+            ViewBag.Nombre = nombre;
 
-            return View();
+            return View("Saludo");
         }
 
     }   

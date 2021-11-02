@@ -19,7 +19,8 @@ namespace Actividad3.Controllers
         [HttpPost]
         public ActionResult Editar(ClsPersona persona)
         {
-            return View(persona);
+
+            return View("EditarPersona",persona);
         }
     }
 }

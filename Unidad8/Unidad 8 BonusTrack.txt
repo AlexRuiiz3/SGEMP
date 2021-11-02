@@ -1,0 +1,21 @@
+CAPA Entidades:
+		clsPlanta: Esta clase hace referencia a una tabla planta de una BBDD, la cual sera usada para que en la capa Dal se puedan realizar operaciones 
+			   con clsPlanta.
+			   Sus atributos seran: 
+						-Nombre: Cadena, Consultable
+						-Detalles: Cadena, Consultable, Modificable
+
+CAPA Dal:
+		GestoraPlanta: Esta clase sera usada para gestionar operaciones sobre objetos clsPlanta de una BBDD. 
+			       Operaciones disponibles:
+						-obtenerListaPlantas: Se devolvera una lista de objetos clsPlanta.
+						-obtenerListaNombresPlantas(): Se devolvera una lista de String con los nombres de Plantas que hay en una BBDD.
+						-obtenerDetallesPlanta(Strign nombre): Se devolvera el detalle que tiene asociado una planta en concreto.
+CAPA UI:
+		Models(Lo que necesitan las vistas): 
+			clsIndexViewModel:Clase que representa lo que nesecita la view Planta de la capa UI
+			Sus atributos seran: 
+					   -nombresPlantas: List<String>,Consultable 
+					   -detalles: Cadena,Consultable
+		
+		Contendra una vista que tendra una lista de objetos clsPlantas la cual sera suministrada por la CAPA Dal(GestoraPlanta).

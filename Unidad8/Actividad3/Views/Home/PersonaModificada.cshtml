@@ -2,6 +2,7 @@
 @{
     Layout = null;
 }
+@model Entidades.ClsPersona
 
 <!DOCTYPE html>
 
@@ -12,6 +13,9 @@
 </head>
 <body>
     <div> 
+        <p>@Model.Nombre</p>
+        <p>@Model.Apellidos</p>
+        <p>@Model.Edad</p>
     </div>
 </body>
 </html>

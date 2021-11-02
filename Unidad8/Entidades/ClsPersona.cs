@@ -5,9 +5,9 @@ namespace Entidades
 {
     public class ClsPersona
     {
-        public String nombre;
-        public String apellidos;
-        public int edad;
+        private String nombre;
+        private String apellidos;
+        private int edad;
 
         #region Constructor con parametros
         public ClsPersona(String nombre, String apellidos, int edad)
