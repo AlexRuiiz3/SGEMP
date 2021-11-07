@@ -140,3 +140,4 @@ C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Actividad2\obj\Debug\Actividad2.cs
 C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Actividad2\obj\Debug\Actividad2.csproj.CoreCompileInputs.cache
 C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Actividad2\obj\Debug\Actividad2.dll
 C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Actividad2\obj\Debug\Actividad2.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad8\Actividad2\obj\Debug\Actividad2.csproj.AssemblyReference.cache

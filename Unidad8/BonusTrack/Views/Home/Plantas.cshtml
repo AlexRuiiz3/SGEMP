@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model  BonusTrack.Models.ClsPlantasVM
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Plantas</title>
+</head>
+<body>
+    <form method="post">
+        <select name="nombre" multiple>
+            @for (int i = 0; i < Model.NombresPlantas.Count; i++)
+            {
+                <option>
+                    @Model.NombresPlantas.ElementAt(i)
+                </option>
+            }
+        </select>
+        <br />
+        <textarea rows="5" cols="70">@Model.Detalles</textarea><!--rows = altura cols = ancho -->
+
+        <br />
+        <button type="submit">Ver Detalles</button> 
+    </form>
+</body>
+</html>

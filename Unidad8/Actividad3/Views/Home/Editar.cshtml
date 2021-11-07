@@ -12,14 +12,16 @@
     <title>Editar</title>
 </head>
 <body>
-    <div> 
-        <input type="text" name="Nombre" value="@Model.Nombre"/>
-        <br />
-        @Html.TextBox("Apellidos")
-        <br />
-        @Html.TextBoxFor(edad => @Model.Edad)
-        <br />
-        <button type="submit">Enviar</button>
+    <div>
+        <form method="post">
+            <input type="text" name="Nombre" value="@Model.Nombre" />
+            <br />
+            @Html.TextBox("Apellidos")
+            <br />
+            @Html.TextBoxFor(Edad => @Model.Edad)
+            <br />
+            <input type="submit" />
+        </form>
     </div>
 </body>
 </html>

@@ -9,6 +9,14 @@ namespace Entidades
         private String apellidos;
         private int edad;
 
+        #region Constructor sin parametros
+        public ClsPersona() {
+            nombre = "";
+            apellidos = "";
+            edad = 0;
+        }
+        #endregion
+
         #region Constructor con parametros
         public ClsPersona(String nombre, String apellidos, int edad)
         {

@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+@model Ejercicio1.Models.ClsEditarVM
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            @Html.TextBoxFor(model => model.IdPersona)
+            <br />
+            @Html.TextBoxFor(Nombre => @Model.Nombre)
+            @Html.ValidationMessageFor(Nombre => @Model.Nombre)
+            <br />
+            @Html.TextBoxFor(model => model.Apellidos)
+            @Html.ValidationMessageFor(model => model.Apellidos)
+            <br />
+            @Html.TextBoxFor(model => model.FechaNac)
+            @Html.ValidationMessageFor(model => model.FechaNac)
+            <br />
+            @Html.TextBoxFor(model => model.Direccion)
+            @Html.ValidationMessageFor(model => model.Direccion)
+            <br />
+            @Html.TextBoxFor(model => model.Telefono)
+            @Html.ValidationMessageFor(model => model.Telefono)
+            <br />
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
