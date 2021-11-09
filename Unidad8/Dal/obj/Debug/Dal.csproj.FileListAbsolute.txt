@@ -3,3 +3,9 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad8\Dal\bin\Debug\Dal
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad8\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad8\Dal\obj\Debug\Dal.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\Unidad8\Dal\obj\Debug\Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\bin\Debug\Dal.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\bin\Debug\Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\obj\Debug\Dal.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\Unidad8\Dal\obj\Debug\Dal.pdb

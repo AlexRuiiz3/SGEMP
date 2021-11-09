@@ -13,18 +13,14 @@ namespace BonusTrack.Controllers
         // GET: Home
         public ActionResult Plantas()
         {
-            ClsPlantasVM clsPlantasVM = new ClsPlantasVM(GestoraPlantas.obtenerNombresPlantas(),"");
-
-            return View(clsPlantasVM);
+            return View(new PlantasVM());
         }
 
         [HttpPost]
-        public ActionResult Plantas(String nombre)
+        public ActionResult Plantas(String selectPlantas)
         {
-            ClsPlantasVM clsPlantasVM = new ClsPlantasVM(GestoraPlantas.obtenerNombresPlantas(),
-                                                         GestoraPlantas.obtenerDetallesPlanta(nombre));
-
-            return View(clsPlantasVM);
+            GestoraPlantas gestoraPlantas = new GestoraPlantas();
+            return View(new PlantasVM(gestoraPlantas.obtenerDetallesPlanta(selectPlanta)));
         }
     }
 }

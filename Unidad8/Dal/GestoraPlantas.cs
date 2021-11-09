@@ -7,15 +7,15 @@ namespace Dal
     {
 
         /// <summary>
-        /// Cabecera: public static List<String> obtenerNombresPlantas()
+        /// Cabecera: public List<String> obtenerNombresPlantas()
         /// Comentarios: Este metodo se encarga de obtener un listado con todos los nombres de plantas que hay.
         /// Entradas: Ninguna
         /// Salidas: List<String> nombresPlantas
         /// Precondiciones: Ninguna
         /// Postcondiciones: Se devolvera una lista de String con todos los nombres de plantas.
         /// </summary>
-        /// <returns>List<String> nombresPlantas</returns>
-        public static List<String> obtenerNombresPlantas()
+        /// <returns> List(String) nombresPlantas</returns>
+        public List<String> obtenerNombresPlantas()
         {
             List<String> nombresPlantas = new List<String>();
 
@@ -30,7 +30,7 @@ namespace Dal
         }
 
         /// <summary>
-        /// Cabecera: public static String obtenerDetallesPlanta(String nombre)
+        /// Cabecera: public String obtenerDetallesPlanta(String nombre)
         /// Comentarios: Este metodo se encarga de obtener los detalles de una Planta apartir del nombre.
         /// Entradas: String nombre
         /// Salidas: String detalles
@@ -40,9 +40,8 @@ namespace Dal
         /// </summary>
         /// <param name="nombre"></param>
         /// <returns>String detalles</returns>
-        public static String obtenerDetallesPlanta(String nombre)
+        public String obtenerDetallesPlanta(String nombre)
         {
-
             String detalles = "";
 
             switch (nombre)

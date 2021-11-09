@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Dal;
 
 namespace BonusTrack.Models
 {
-    public class ClsPlantasVM
+    public class PlantasVM
     {
 
         private List<String> nombresPlantas;
         private String detalles;
 
-        public ClsPlantasVM() {
-            nombresPlantas = new List<string>();
+        public PlantasVM() {
+            GestoraPlantas gestoraPlantas = new GestoraPlantas();
+            nombresPlantas = gestoraPlantas.obtenerNombresPlantas();
             detalles = "";
         }
 
-        public ClsPlantasVM(List<String> nombresPlantas, String detalles) {
-            this.nombresPlantas = nombresPlantas;
+        public PlantasVM(String detalles) {
+            GestoraPlantas gestoraPlantas = new GestoraPlantas();
+            nombresPlantas = gestoraPlantas.obtenerNombresPlantas();
             this.detalles = detalles;
         }
 
