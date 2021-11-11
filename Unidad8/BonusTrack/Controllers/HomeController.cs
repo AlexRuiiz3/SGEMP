@@ -20,7 +20,7 @@ namespace BonusTrack.Controllers
         public ActionResult Plantas(String selectPlantas)
         {
             GestoraPlantas gestoraPlantas = new GestoraPlantas();
-            return View(new PlantasVM(gestoraPlantas.obtenerDetallesPlanta(selectPlanta)));
+            return View(new PlantasVM(gestoraPlantas.obtenerDetallesPlanta(selectPlantas)));
         }
     }
 }

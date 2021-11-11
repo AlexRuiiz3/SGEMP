@@ -14,23 +14,25 @@
 <body>
     <div>
         <form method="post">
-            @Html.TextBoxFor(model => model.IdPersona)
-            <br />
-            @Html.TextBoxFor(Nombre => @Model.Nombre)
-            @Html.ValidationMessageFor(Nombre => @Model.Nombre)
-            <br />
-            @Html.TextBoxFor(model => model.Apellidos)
-            @Html.ValidationMessageFor(model => model.Apellidos)
-            <br />
-            @Html.TextBoxFor(model => model.FechaNac)
-            @Html.ValidationMessageFor(model => model.FechaNac)
-            <br />
-            @Html.TextBoxFor(model => model.Direccion)
-            @Html.ValidationMessageFor(model => model.Direccion)
-            <br />
-            @Html.TextBoxFor(model => model.Telefono)
-            @Html.ValidationMessageFor(model => model.Telefono)
-            <br />
+            <p>
+                @Html.TextBoxFor(model => model.IdPersona)
+                <br />
+                @Html.TextBoxFor(nombre => nombre.Nombre)
+                @Html.ValidationMessageFor(nombre => nombre.Nombre)
+                <br />
+                @Html.TextBoxFor(model => model.Apellidos)
+                @Html.ValidationMessageFor(model => model.Apellidos)
+                <br />
+                @Html.TextBoxFor(model => model.FechaNac)
+                @Html.ValidationMessageFor(model => model.FechaNac)
+                <br />
+                @Html.TextBoxFor(model => model.Direccion)
+                @Html.ValidationMessageFor(model => model.Direccion)
+                <br />
+                @Html.TextBoxFor(model => model.Telefono)
+                @Html.ValidationMessageFor(model => model.Telefono)
+                <br />
+            </p>
             <input type="submit" />
         </form>
     </div>
