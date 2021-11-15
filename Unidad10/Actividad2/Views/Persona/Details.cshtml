@@ -1,0 +1,82 @@
+﻿@model Actividad2.Models.Entidades.ClsPersona
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ClsPersona</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Nombre)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Apellidos)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Apellidos)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Telefono)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Direccion)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Foto)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FechaNacimiento)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FechaNacimiento)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.IdDepartamento)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.IdDepartamento)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
