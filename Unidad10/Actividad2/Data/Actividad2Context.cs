@@ -20,10 +20,6 @@ namespace Actividad2.Data
         public Actividad2Context() : base("name=Actividad2Context")
         {
         }
-
-        public List<ClsPersona> ListadoPersonas {
-            get { return Listados.obtenerPersonas(); }
-        }
         public DbSet<ClsPersona> ClsPersonas { get; set; }
     }
 }

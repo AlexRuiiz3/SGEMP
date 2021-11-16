@@ -8,6 +8,8 @@ using System.Web;
 using System.Web.Mvc;
 using Actividad2.Data;
 using Actividad2.Models.Entidades;
+using Actividad2.Models.Dal;
+using System.Data.SqlClient;
 
 namespace Actividad2.Controllers
 {
@@ -16,9 +18,18 @@ namespace Actividad2.Controllers
         private Actividad2Context db = new Actividad2Context();
 
         // GET: Persona
-        public ActionResult Index()
+        public ActionResult Listado()
         {
-            return View(db.ClsPersonas.ToList());
+            List<ClsPersona> listadoPersonas = new List<ClsPersona>();
+            try
+            {
+               listadoPersonas = Listados.obtenerPersonas();
+            }
+            catch (SqlException) { 
+            //Llamar a view de error
+            //return View("ErrorView");
+            }
+            return View(listadoPersonas);
         }
 
         // GET: Persona/Details/5

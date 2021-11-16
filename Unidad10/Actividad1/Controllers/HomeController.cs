@@ -14,7 +14,8 @@ namespace Actividad1.Controllers
         }
         // GET: Home
         [HttpPost]
-        public ActionResult Index(string a)
+        [ActionName("Index")]
+        public ActionResult IndexPost()
         {
             SqlConnection miConexion = new SqlConnection();
 

@@ -16,7 +16,7 @@ namespace Actividad2
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Persona", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Persona", action = "Listado", id = UrlParameter.Optional }
             );
         }
     }
