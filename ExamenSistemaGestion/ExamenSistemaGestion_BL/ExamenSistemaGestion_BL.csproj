@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenSistemaGestion_Dal\ExamenSistemaGestion_Dal.csproj" />
+    <ProjectReference Include="..\ExamenSistemaGestion_Entidades\ExamenSistemaGestion_Entidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Gestora\" />
+    <Folder Include="Listados\" />
+  </ItemGroup>
+
+</Project>

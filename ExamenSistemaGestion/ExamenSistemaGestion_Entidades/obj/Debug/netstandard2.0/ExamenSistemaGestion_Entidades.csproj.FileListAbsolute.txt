@@ -1,0 +1,9 @@
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.deps.json
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.pdb
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.csproj.AssemblyReference.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.AssemblyInfoInputs.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.AssemblyInfo.cs
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.dll
+C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Entidades\obj\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.pdb
