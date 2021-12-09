@@ -19,8 +19,8 @@ namespace ExamenSistemaGestion_Dal.Conexion
         /// <returns>SqlConnection conexion</returns>
         public static SqlConnection establecerConexion(){
             SqlConnection conexion = new SqlConnection();
-            conexion.ConnectionString = "server=ALEXRUIZ\\SQLEXPRESS;" +
-                                        "database=ExamenSistemaGestion;uid=saExamen;pwd=mitesoro;";
+            conexion.ConnectionString = "server=107-19\\SQLEXPRESS;" +
+                                        "database=FrayGuillermo;uid=prueba;pwd=123;";
             conexion.Open();
             return conexion;
         }

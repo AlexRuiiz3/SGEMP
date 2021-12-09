@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj": {}
+    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj": {
+    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj",
+        "projectUniqueName": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj",
         "projectName": "ExamenSistemaGestion_BL",
-        "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj",
-        "packagesPath": "C:\\Users\\AlexRuiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\obj\\",
+        "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj",
+        "packagesPath": "C:\\Users\\aruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\AlexRuiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -32,11 +34,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj": {
-                "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj"
+              "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj": {
+                "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj"
               },
-              "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
-                "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
+              "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
+                "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
               }
             }
           }
@@ -68,26 +70,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj": {
+    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj",
+        "projectUniqueName": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj",
         "projectName": "ExamenSistemaGestion_Dal",
-        "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj",
-        "packagesPath": "C:\\Users\\AlexRuiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\obj\\",
+        "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\ExamenSistemaGestion_Dal.csproj",
+        "packagesPath": "C:\\Users\\aruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\AlexRuiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -100,8 +104,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
-                "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
+              "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
+                "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
               }
             }
           }
@@ -137,26 +141,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
+    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
         "projectName": "ExamenSistemaGestion_Entidades",
-        "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
-        "packagesPath": "C:\\Users\\AlexRuiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\obj\\",
+        "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
+        "packagesPath": "C:\\Users\\aruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\AlexRuiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -186,6 +192,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.7, )"
             }
           },
           "imports": [
@@ -198,26 +208,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj": {
+    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj",
+        "projectUniqueName": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj",
         "projectName": "ExamenSistemaGestion_UI",
-        "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj",
-        "packagesPath": "C:\\Users\\AlexRuiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\obj\\",
+        "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\ExamenSistemaGestion_UI.csproj",
+        "packagesPath": "C:\\Users\\aruiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\AlexRuiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -230,11 +242,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj": {
-                "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj"
+              "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj": {
+                "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_BL\\ExamenSistemaGestion_BL.csproj"
               },
-              "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
-                "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
+              "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj": {
+                "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj"
               }
             }
           }
@@ -272,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

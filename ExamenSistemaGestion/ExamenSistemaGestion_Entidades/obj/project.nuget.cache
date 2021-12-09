@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JCBBMtmkJJp7qby4Q2aoB4ODnMC8CsW9uPmdF59q35o94xH4NgaMO8RYb48HowD3txK+DtpkL2/xTkJdg/Sjig==",
+  "dgSpecHash": "TO08iq4wY9pu9DtSoKJrM8hnNXNmPyQRBd2IOdxdCrT9pQOtMza2jt6LiFjeGTzk8cGFFE6IKDiZayKPkVG/4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
+  "projectFilePath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenSistemaGestion\\ExamenSistemaGestion_Entidades\\ExamenSistemaGestion_Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AlexRuiz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\AlexRuiz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\aruiz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aruiz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aruiz\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.4.21253.7\\system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace ExamenSistemaGestion_UI.Models
 {
-    public class Class
+    public class ClsPlantaConNombre
     {
+        //No me da tiempo implementarlo
     }
 }

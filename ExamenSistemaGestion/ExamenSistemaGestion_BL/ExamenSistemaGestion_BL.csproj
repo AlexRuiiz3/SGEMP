@@ -9,9 +9,4 @@
     <ProjectReference Include="..\ExamenSistemaGestion_Entidades\ExamenSistemaGestion_Entidades.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Gestora\" />
-    <Folder Include="Listados\" />
-  </ItemGroup>
-
 </Project>

@@ -1,61 +1,47 @@
-﻿using CRUD_Personas_Entidades;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using CRUD_Personas_Dal.Conexion;
-using System.Collections.ObjectModel;
+using ExamenSistemaGestion_Entidades;
+using ExamenSistemaGestion_Dal.Conexion;
 
-namespace CRUD_Personas_Dal
+namespace ExamenSistemaGestion_Dal.Listados
 {
     public class ListadosDAL
     {
+
         /// <summary>
-        /// Cabecera: public static List<ClsPersona> obtenerPersonas()
-        /// Comentario: Este metodo se encarga de obtener todas las personas que hay en la tabla Persona de una base de datos.
+        /// Cabecera: public static List<ClsCategoria> obtenerCategorias()
+        /// Comentario: Este metodo se encarga de obtener todas las categorias que hay en la tabla Categoria de una base de datos.
         /// Entradas: Ninguna
-        /// Salidas: List<ClsPersona> listaPersonas 
+        /// Salidas: List<ClsCategoria> listaCategorias
         /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra una lista con las personas que hay en una base de datos, si no hay ninguna persona o se produce 
+        /// Postcondiciones: Se obtendra una lista con las categorias que hay en una base de datos, si no hay ninguna categoria o se produce 
         ///                  alguna excepcion, se devolvera una lista con 0 elementos.
         /// </summary>
-        /// <returns>List<ClsPersona> listaPersonas</returns>
-        public static List<ClsPersona> obtenerPersonas()
+        /// <returns>List<ClsCategoria> listaCategorias</returns>
+        public static List<ClsCategoria> obtenerCategorias()
         {
-            List<ClsPersona> listaPersonas = new List<ClsPersona>();
+            List<ClsCategoria> listaCategorias = new List<ClsCategoria>();
             try
             {
                 SqlConnection conexion = clsMyConnection.establecerConexion();
                 SqlCommand sqlCommand;
                 SqlDataReader sqlDataReader;
-                ClsPersona persona;
+                ClsCategoria categoria;
 
-                sqlCommand = new SqlCommand("SELECT * FROM Personas", conexion);
+                sqlCommand = new SqlCommand("SELECT * FROM Categorias", conexion);
                 sqlDataReader = sqlCommand.ExecuteReader();
 
                 if (sqlDataReader.HasRows) //Si hay filas 
                 {
                     while (sqlDataReader.Read())
                     {
-                        persona = new ClsPersona();
-                        persona.ID = sqlDataReader.GetInt16(0);
-                        persona.Nombre = sqlDataReader[1].ToString();
-                        persona.Apellidos = sqlDataReader[2].ToString();
-                        persona.Telefono = sqlDataReader[3].ToString();
-                        persona.Direccion = sqlDataReader[4].ToString();
-                        if (sqlDataReader.GetValue(5) != DBNull.Value)
-                        {
-                            persona.Foto = (byte[])sqlDataReader.GetValue(5);
-                        }
-                        if (sqlDataReader.GetValue(6) != DBNull.Value)
-                        {
-                            persona.FechaNacimiento = sqlDataReader.GetDateTime(6);
-                        }//En el caso de que la persona tenga una Fecha de Nacimiento a null se le asignara la que tenga en el constructor por defecto.
+                        categoria = new ClsCategoria();
+                        categoria.Id = sqlDataReader.GetInt32(0);
+                        categoria.Nombre = sqlDataReader[1].ToString();
 
-                        persona.IdDepartamento = sqlDataReader.GetInt16(7);
 
-                        listaPersonas.Add(persona);
+                        listaCategorias.Add(categoria);
                     }
                 }
                 sqlDataReader.Close();
@@ -65,39 +51,51 @@ namespace CRUD_Personas_Dal
             {
                 throw;
             }
-            return listaPersonas;
+            return listaCategorias;
         }
+
         /// <summary>
-        /// Cabecera: public static List<ClsDepartamento> obtenerDepartamentos()
-        /// Comentario: Este metodo se encarga de obtener todas los departamentos que hay en la tabla Departamentos de una base de datos.
-        /// Entradas: Ninguna
-        /// Salidas: List<ClsDepartamento> listaDepartamentos 
+        /// Cabecera: public static List<ClsPlanta> obtenerPlantasDeCategoria(int idCategoria)
+        /// Comentario: Este metodo se encarga de obtener todas las plantas que estan asociadas a un categoria en concreto(Segun el id recibido) que hay en la tabla PLanta de una base de datos.
+        /// Entradas: int idCategoria
+        /// Salidas: List<ClsPlanta> listaPlantas
         /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra una lista con los departamentos que hay en una base de datos, si no hay ningun departamento o se produce 
-        ///                  alguna excepcion, se devolvera una lista con 0 elemenetos.
+        /// Postcondiciones: Se obtendra una lista con las plantas que estan asociadas a una categoria en concreto que hay en una base de datos, si el id recibido no coincide con ninguna categoria o
+        ///                  se produce alguna excepcion, la lista devuleta tendra 0 elementos.
+        /// 
         /// </summary>
-        /// <returns>List<ClsDepartamento> listaDepartamentos </returns>
-        public static List<ClsDepartamento> obtenerDepartamentos()
+        /// <paramref name="idCategoria"/>
+        /// <returns>List<ClsPlanta> listaPlantas</returns>
+        public static List<ClsPlanta> obtenerPlantasDeCategoria(int idCategoria)
         {
-            List<ClsDepartamento> listaDepartamentos = new List<ClsDepartamento>();
+            List<ClsPlanta> listaPlantas = new List<ClsPlanta>();
             try
             {
                 SqlConnection conexion = clsMyConnection.establecerConexion();
                 SqlCommand sqlCommand;
                 SqlDataReader sqlDataReader;
-                ClsDepartamento departamento;
+                ClsPlanta planta;
 
-                sqlCommand = new SqlCommand("SELECT * FROM Departamentos", conexion);
+                sqlCommand = new SqlCommand("SELECT * FROM Plantas WHERE idCategoria = @ID", conexion);
+                sqlCommand.Parameters.Add("@ID", System.Data.SqlDbType.Int).Value = idCategoria;
                 sqlDataReader = sqlCommand.ExecuteReader();
 
                 if (sqlDataReader.HasRows) //Si hay filas 
                 {
                     while (sqlDataReader.Read())
                     {
-                        departamento = new ClsDepartamento();
-                        departamento.ID = sqlDataReader.GetInt16(0);
-                        departamento.Nombre = sqlDataReader[1].ToString();
-                        listaDepartamentos.Add(departamento);
+                        planta = new ClsPlanta();
+                        planta.Id = sqlDataReader.GetInt32(0);
+                        planta.Nombre = sqlDataReader[1].ToString();
+                        planta.Descripcion = sqlDataReader[2].ToString();
+                        planta.IdCategoria = sqlDataReader.GetInt32(3);
+                        /* Me da un error de que no se puede castear de system.double a system.single. Por eso cuando se modifique el precio de la planta y mas tarde se quiera modificar no va a salir el precio actual sino 0
+                        if (sqlDataReader.GetValue(4) != System.DBNull.Value)
+                        {
+                            planta.Precio = sqlDataReader.GetFloat(4) ; //El problema esta en esta linea pero no entiendo el fallo, si en la base de datos hay un tipo de datos Float, se tendra que leer con el getFloat
+                        }*/
+
+                        listaPlantas.Add(planta);
                     }
                 }
                 sqlDataReader.Close();
@@ -107,189 +105,48 @@ namespace CRUD_Personas_Dal
             {
                 throw;
             }
-            return listaDepartamentos;
-        }
-        /// <summary>
-        /// Cabecera: public static String obtenerNombreDepartamento(int id)
-        /// Comentario: Este metodo se encarga de obtener el nombre que tiene asociado un departamento apartir de su id, que se encuentra en la tabla Departamento en una base de datos.
-        /// Entradas: int id
-        /// Salidas: string nombre
-        /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra una cadena que contendra el nombre que tiene un departamento, si el id que se recibe
-        ///                  no corresponde con ningun departamento o se produce alguna excepcion, el valor de la cadena 
-        ///                  devuelta sera vacio.
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns>string nombre</returns>
-        public static String obtenerNombreDepartamento(int id)
-        {
-            SqlConnection conexion;
-            SqlCommand command;
-            SqlDataReader dataReader;
-            string nombre = "";
-
-            try
-            {
-                conexion = clsMyConnection.establecerConexion();
-                command = new SqlCommand("SELECT Nombre FROM Departamentos WHERE ID = @Id", conexion);
-                command.Parameters.Add("@Id", System.Data.SqlDbType.Int).Value = id;
-                dataReader = command.ExecuteReader();
-                if (dataReader.HasRows)
-                {
-                    dataReader.Read();
-                    nombre = dataReader.GetString(0);
-                }
-                dataReader.Close();
-                clsMyConnection.cerrarConexion(conexion);
-            }
-            catch (SqlException)
-            {
-                throw;
-            }
-            return nombre;
+            return listaPlantas;
         }
 
         /// <summary>
-        /// Cabecera: public static ClsPersona obtenerPersona(int id)
-        /// Comentario: Este metodo se encarga de obtener de la tabla Persona de una base de datos, una persona determinada apartir del id.
-        /// Entradas: int id
-        /// Salidas: ClsPersona persona
+        /// Cabecera: public static ClsPlanta obtenerPlanta(int idPlanta)
+        /// Comentario: Este metodo se encarga de obtener una planta en concreto que se ecuentra en la tabla Planta de una base de datos.
+        /// Entradas: int idPlanta
+        /// Salidas: ClsPlanta planta
         /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra objeto ClsPersona que sera una persona en especifico, si el id que se recibe no corresponde con ninguna persona o se produce alguna
-        ///                  excepcion, el valor del objeto ClsPersona sera null.
+        /// Postcondiciones: Se obtendra una planta en concreto que hay en una base de datos, si el id recibido no coincide con el de ninguna planta o se produce alguna excepcion, 
+        ///                  el valor de la planta devuelta sea null.
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns>ClsPersona persona</returns>
-        public static ClsPersona obtenerPersona(int id)
+        /// <paramref name="idPlanta"/>
+        /// <returns>ClsPlanta planta</returns>
+        public static ClsPlanta obtenerPlanta(int idPlanta)
         {
-            ClsPersona persona = null;
-            try
-            {
-                SqlConnection conexion = clsMyConnection.establecerConexion();
-                SqlDataReader dataReader;
-                SqlCommand command;
-
-                command = new SqlCommand("SELECT * FROM Personas WHERE ID = @Id", conexion);
-                command.Parameters.Add("@Id", System.Data.SqlDbType.Int).Value = id;
-                dataReader = command.ExecuteReader();
-
-                if (dataReader.HasRows)
-                {
-                    dataReader.Read();
-                    persona = new ClsPersona();
-                    persona.ID = dataReader.GetInt16(0);
-                    persona.Nombre = dataReader[1].ToString();
-                    persona.Apellidos = dataReader[2].ToString();
-                    persona.Telefono = dataReader[3].ToString();
-                    persona.Direccion = dataReader[4].ToString();
-                    if (dataReader.GetValue(5) != System.DBNull.Value)
-                    {
-                        persona.Foto = (byte[])dataReader.GetValue(5);
-                    }
-                    if (dataReader.GetValue(6) != System.DBNull.Value)
-                    {
-                        persona.FechaNacimiento = dataReader.GetDateTime(6);
-                    }
-                    persona.IdDepartamento = dataReader.GetInt16(7);
-                }
-                dataReader.Close();
-                clsMyConnection.cerrarConexion(conexion);
-            }
-            catch (SqlException)
-            {
-                throw;
-            }
-            return persona;
-        }
-        /// <summary>
-        /// Cabecera: public static ClsPersona obtenerPersona(int id)
-        /// Comentario: Este metodo se encarga de obtener de la tabla Departamento de una base de datos, una departamento determinado apartir del id.
-        /// Entradas: int id
-        /// Salidas: ClsDepartamento departamento
-        /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra objeto ClsDepartamento que sera un departamento en especifico, si el id que se
-        ///                                     recibe no corresponde con ningun departamento o se produce alguna excepcion, 
-        ///                                     el valor del objeto ClsDepartamento sera null.
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns>ClsPersona persona</returns>
-        public static ClsDepartamento obtenerDepartamento(int id)
-        {
-            ClsDepartamento departamento = null;
-            try
-            {
-                SqlConnection conexion = clsMyConnection.establecerConexion();
-                SqlDataReader dataReader;
-                SqlCommand command;
-
-                command = new SqlCommand("SELECT * FROM Departamentos WHERE ID = @Id", conexion);
-                command.Parameters.Add("@Id", System.Data.SqlDbType.Int).Value = id;
-                dataReader = command.ExecuteReader();
-
-                if (dataReader.HasRows)
-                {
-                    dataReader.Read();
-                    departamento = new ClsDepartamento();
-                    departamento.ID = dataReader.GetInt16(0);
-                    departamento.Nombre = dataReader[1].ToString();
-                }
-                dataReader.Close();
-                clsMyConnection.cerrarConexion(conexion);
-            }
-            catch (SqlException)
-            {
-                throw;
-            }
-            return departamento;
-        }
-        /// <summary>
-        /// Cabecera: public static List<ClsPersona> obtenerPersonasDeDepartamento(int idDepartamento)
-        /// Comentario: Este metodo se encarga de obtener todas las personas que tiene asociado un departamento en concreto, determindao por el id recibido.
-        /// Entradas: int idDepartamento
-        /// Salidas: List<ClsPersona> listaPersonas 
-        /// Precondiciones: Ninguna
-        /// Postcondiciones: Se obtendra una lista con las personas que hay en una base de datos y que estan asociados
-        ///                  a un departamento, si no hay ninguna persona o el id no coincide con el de ningun 
-        ///                  departamento o se produce alguna excepcion, se devolvera una lista con 0 elementos.
-        /// </summary>
-        /// <returns>List<ClsPersona> listaPersonas</returns>
-        public static List<ClsPersona> obtenerPersonasDeDepartamento(int idDepartamento)
-        {
-            List<ClsPersona> listaPersonas = new List<ClsPersona>();
+            ClsPlanta planta = null;
             try
             {
                 SqlConnection conexion = clsMyConnection.establecerConexion();
                 SqlCommand sqlCommand;
                 SqlDataReader sqlDataReader;
-                ClsPersona persona;
 
-                sqlCommand = new SqlCommand("SELECT * FROM Personas WHERE IDDepartamento = @Id", conexion);
-                sqlCommand.Parameters.Add("@Id", System.Data.SqlDbType.Int).Value = idDepartamento;
+
+                sqlCommand = new SqlCommand("SELECT * FROM Plantas WHERE idPlanta = @ID", conexion);
+                sqlCommand.Parameters.Add("@ID", System.Data.SqlDbType.Int).Value = idPlanta;
                 sqlDataReader = sqlCommand.ExecuteReader();
 
                 if (sqlDataReader.HasRows) //Si hay filas 
                 {
-                    while (sqlDataReader.Read())
+                    sqlDataReader.Read();
+
+                    planta = new ClsPlanta();
+                    planta.Id = sqlDataReader.GetInt32(0);
+                    planta.Nombre = sqlDataReader[1].ToString();
+                    planta.Descripcion = sqlDataReader[2].ToString();
+                    planta.IdCategoria = sqlDataReader.GetInt32(3);
+                    /* Me da un error de que no se puede castear de system.double a system.single 
+                    if (sqlDataReader.GetValue(4) != System.DBNull.Value)
                     {
-                        persona = new ClsPersona();
-                        persona.ID = sqlDataReader.GetInt16(0);
-                        persona.Nombre = sqlDataReader[1].ToString();
-                        persona.Apellidos = sqlDataReader[2].ToString();
-                        persona.Telefono = sqlDataReader[3].ToString();
-                        persona.Direccion = sqlDataReader[4].ToString();
-                        if (sqlDataReader.GetValue(5) != DBNull.Value)
-                        {
-                            persona.Foto = (byte[])sqlDataReader.GetValue(5);
-                        }
-                        if (sqlDataReader.GetValue(6) != DBNull.Value)
-                        {
-                            persona.FechaNacimiento = sqlDataReader.GetDateTime(6);
-                        }//En el caso de que la persona tenga una Fecha de Nacimiento a null se le asignara la que tenga en el constructor por defecto.
-
-                        persona.IdDepartamento = sqlDataReader.GetInt16(7);
-
-                        listaPersonas.Add(persona);
-                    }
+                        planta.Precio = sqlDataReader.GetFloat(4) ; //El problema esta en esta linea pero no entiendo el fallo, si en la base de datos hay un tipo de datos Float, se tendra que leer con el getFloat
+                    }*/
                 }
                 sqlDataReader.Close();
                 clsMyConnection.cerrarConexion(conexion);
@@ -298,7 +155,7 @@ namespace CRUD_Personas_Dal
             {
                 throw;
             }
-            return listaPersonas;
+            return planta;
         }
     }
 }

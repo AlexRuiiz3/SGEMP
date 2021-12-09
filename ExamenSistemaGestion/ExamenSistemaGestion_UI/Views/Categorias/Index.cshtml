@@ -1,0 +1,51 @@
+﻿@model ExamenSistemaGestion_UI.Models.ViewModels.CategoriasControllerVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Categorias</title>
+</head>
+<body>
+    <form method="post">
+        Seleccione una planta y pulse el boton para las plantas disponibles
+        <br />
+        <select name="Id">
+            @foreach (ExamenSistemaGestion_Entidades.ClsCategoria categoria in Model.ListaCategorias)
+            {
+                <option value="@categoria.Id">@categoria.Nombre</option>
+            }
+        </select>
+        <br />
+        @{
+            if (Model.ListaPlantasCategoria.Count > 0)
+            {
+                <table border="1">
+                    <tr>
+                        <th>
+                            Nombre
+                        </th>
+                    </tr>
+                    @foreach (ExamenSistemaGestion_Entidades.ClsPlanta planta in Model.ListaPlantasCategoria)
+                    {
+                    <tr>
+                        <td>
+                            @planta.Nombre
+                        </td>
+                        
+                        <td>
+                            @Html.ActionLink("Asignar Precio","Actualizar","Plantas", new {id = planta.Id})
+                        </td>
+                    </tr>
+                    }
+                </table>
+            }
+        }
+        <input type="submit" value="Ver Plantas"/>
+    </form>
+</body>
+</html>

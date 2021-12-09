@@ -12,3 +12,18 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\Exam
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.csproj.CopyComplete
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_BL.deps.json
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_BL.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_BL.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_Dal.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.csproj.AssemblyReference.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.AssemblyInfoInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.AssemblyInfo.cs
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.csproj.CoreCompileInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.csproj.CopyComplete
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_BL\obj\Debug\netstandard2.0\ExamenSistemaGestion_BL.pdb

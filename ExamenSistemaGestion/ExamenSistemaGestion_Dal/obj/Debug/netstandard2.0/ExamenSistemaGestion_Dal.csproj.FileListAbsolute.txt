@@ -10,3 +10,16 @@ C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\Exam
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.csproj.CopyComplete
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.dll
 C:\Users\AlexRuiz\Desktop\Ciclo DAM\Repositorios\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.csproj.AssemblyReference.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.AssemblyInfoInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.AssemblyInfo.cs
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.csproj.CoreCompileInputs.cache
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\bin\Debug\netstandard2.0\ExamenSistemaGestion_Dal.deps.json
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\bin\Debug\netstandard2.0\ExamenSistemaGestion_Dal.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\bin\Debug\netstandard2.0\ExamenSistemaGestion_Dal.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.dll
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\bin\Debug\netstandard2.0\ExamenSistemaGestion_Entidades.pdb
+C:\Users\aruiz\Documents\GitHub\SGEMP\ExamenSistemaGestion\ExamenSistemaGestion_Dal\obj\Debug\netstandard2.0\ExamenSistemaGestion_Dal.csproj.CopyComplete
