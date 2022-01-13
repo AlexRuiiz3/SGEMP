@@ -9,9 +9,6 @@ function mostrarDatosPersonas() {
     var inputNombre = document.getElementById("inputNombre").value;
     var inputApellidos = document.getElementById("inputApellidos").value;
 
-    var persona = {
-        nombre: inputNombre,
-        apellidos: inputApellidos
-    };
+    var persona = new Persona(inputNombre, inputApellidos);
     alert("Nombre: " + persona.nombre + "Apellidos: " + persona.apellidos);
 }
