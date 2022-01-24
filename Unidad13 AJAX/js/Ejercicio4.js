@@ -10,10 +10,12 @@ function inicializar() {
 
 function obtenerPersonas() {
     var peticion = new XMLHttpRequest();
-    peticion.open("GET","https://crudpersonasasp-alexruiz.azurewebsites.net/api/personas");
+    peticion.open("GET", "https://crudpersonasasp-alexruiz.azurewebsites.net/api/personas");
+    document.getElementById("imgCargando").hidden = false;
 
     peticion.onreadystatechange = function () {
         if (peticion.readyState == 4) {
+            document.getElementById("imgCargando").hidden = true;
             if (peticion.status == 200) {
                 var arrayPersonas = JSON.parse(peticion.responseText);
                 crearTablaPersonas(arrayPersonas);
@@ -45,16 +47,23 @@ function crearTablaPersonas(arrayPersonas) {
     var tbody = document.createElement("tbody");
     arrayPersonas.forEach(function (persona, i, arrayPersonas) {
         let tr = document.createElement("tr");
-        let th1 = document.createElement("td");
-        th1.innerHTML = persona.nombre;
-        let th2 = document.createElement("td");
-        th2.innerHTML = persona.apellidos;
-        let th3 = document.createElement("td");
-        th3.innerHTML = persona.telefono;
+        let td1 = document.createElement("td");
+        td1.innerHTML = persona.nombre;
+        let td2 = document.createElement("td");
+        td2.innerHTML = persona.apellidos;
+        let td3 = document.createElement("td");
+        td3.innerHTML = persona.telefono;
+        let td4 = document.createElement("td");
 
-        tr.appendChild(th1);
-        tr.appendChild(th2);
-        tr.appendChild(th3);
+        var button = document.createElement("button");
+        button.innerHTML = "button";
+       // button.onclick = activarCamposPersonaConValores.bind(persona);
+        td4.innerHTML = button;
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        tr.appendChild(td4);
 
         tbody.appendChild(tr);
         tabla.appendChild(tbody);
@@ -66,8 +75,8 @@ function activarCamposPersona() {
     document.getElementById("btnCrear").hidden = true;
     document.getElementById("ZonaCrearPersona").hidden = false;
 }
-function activarCamposPersonaConValores() {
-
+function activarCamposPersonaConValores(persona) {
+    alert(persona.nombre);
 }
 function volverAtras() {
     document.getElementById("tblPersonas").hidden = false;
