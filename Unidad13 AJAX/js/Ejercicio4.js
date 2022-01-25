@@ -21,6 +21,8 @@ function obtenerPersonas() {
                 crearTablaPersonas(arrayPersonas);
             } else if (peticion.status == 404) {
                 document.getElementById("divMensajeError").innerHTML = "No se encontraron personas";
+            } else {
+                document.getElementById("divMensajeError").innerHTML = "A ocurrido un error.";
             }
         }
     }
@@ -142,7 +144,7 @@ function crearPersona() {
                     alert("Persona creada con exito");
                     window.location.reload();
                 } else {
-                    alert(peticion.status);//"Debido a un error no se puedo insertar la persona");
+                    alert("Debido a un error no se puedo insertar la persona");
                 }
             }
         };
@@ -151,7 +153,8 @@ function crearPersona() {
 }
 
 function actualizarPersona() {
-    alert("Da 405, no se permite PUT");/*
+    //alert("Da 405, no se permite PUT");
+    
     var personaActualizar = obtenerDatosYCrearPersona();
     var peticion = new XMLHttpRequest();
     peticion.open("PUT", urlAPI+"/");
@@ -165,11 +168,12 @@ function actualizarPersona() {
                 alert("Persona actualizada con exito");
                 window.location.reload();
             } else {
-                alert("Debido a un error no se puedo actualizar la persona");
+                alert(peticion.status);//"Debido a un error no se puedo actualizar la persona");
             }
         }
     }
-    peticion.send(json);*/
+    peticion.send(json);
+    
 }
 
 function eliminarPersona(idPersona) {
