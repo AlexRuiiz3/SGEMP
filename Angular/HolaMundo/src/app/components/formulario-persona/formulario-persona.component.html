@@ -1,0 +1,8 @@
+<form>
+<div>Nombre:</div>
+<input #phone placeholder="phone number"> 
+<div>Apellidos:</div>
+<input type="text">
+<input type="button" value="Pulsame" (click)="saludar(phone.value)">
+<router-outlet></router-outlet>
+</form>
