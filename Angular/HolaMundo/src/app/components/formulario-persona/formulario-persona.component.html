@@ -1,8 +1,8 @@
 <form>
 <div>Nombre:</div>
-<input #phone placeholder="phone number"> 
+<input type="text" id="iputNombre">
 <div>Apellidos:</div>
-<input type="text">
-<input type="button" value="Pulsame" (click)="saludar(phone.value)">
+<input type="text" id="iputApellidos">
+<input type="button" value="Pulsame" (click)="saludar()">
 <router-outlet></router-outlet>
 </form>

@@ -12,7 +12,4 @@ export class FormularioPersonaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  saludar(): void{
-    alert((<HTMLInputElement>document.getElementById("iputNombre")).value+" "+(<HTMLInputElement>document.getElementById("iputApellidos")).value);
-  }
 }
