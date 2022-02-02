@@ -1,0 +1,9 @@
+<form [formGroup]="formularioPersona">
+    <div>Nombre:</div>
+    <input type="text" id="iputNombre" formControlName="nombre">
+    <div>Apellidos:</div>
+    <input type="text" id="iputApellidos" formControlName="apellidos">
+    
+    <input type="button" value="Pulsame" (click)="saludar()">
+</form>
+<router-outlet></router-outlet>
