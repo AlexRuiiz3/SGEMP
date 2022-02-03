@@ -1,9 +1,11 @@
 <form [formGroup]="formularioPersona">
     <div>Nombre:</div>
-    <input type="text" id="iputNombre" formControlName="nombre">
+    <input type="text" id="inputNombre" formControlName="nombre">
+    <span *ngIf="(formularioPersona.controls.nombre.dirty || formularioPersona.controls.nombre.touched) && this.formularioPersona.controls.nombre.errors?.required">Nombre obligatorio</span>
     <div>Apellidos:</div>
-    <input type="text" id="iputApellidos" formControlName="apellidos">
-    
-    <input type="button" value="Pulsame" (click)="saludar()">
+    <input type="text" id="inputApellidos" formControlName="apellidos">
+    <span *ngIf="this.formularioPersona.controls.apellidos.errors?.maxlength">Maximo 20 caracteres</span>
+    <br>
+    <input type="button" [disabled]="formularioPersona.invalid" value="Pulsame" (click)="saludar()">
 </form>
 <router-outlet></router-outlet>

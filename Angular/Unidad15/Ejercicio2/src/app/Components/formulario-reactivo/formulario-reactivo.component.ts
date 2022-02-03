@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup,FormControl} from '@angular/forms';
+import { FormGroup,FormControl,Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-formulario-reactivo',
@@ -15,14 +15,16 @@ export class FormularioReactivoComponent implements OnInit {
   ngOnInit(): void {
     this.formularioPersona = new FormGroup(
       {
-      nombre: new FormControl('',[]),
-      apellidos: new FormControl('',[])
+      nombre: new FormControl('',[Validators.required]),
+      apellidos: new FormControl('',[Validators.maxLength(20)])
       }
     );
   }
 
   saludar(){
-    alert("Hola "+this.formularioPersona.controls.apellidos.value)
+    if(this.formularioPersona.valid){
+      alert("Hola " + this.formularioPersona.controls.nombre.value + this.formularioPersona.controls.apellidos.value)
+    }
   }
-
+  
 }
