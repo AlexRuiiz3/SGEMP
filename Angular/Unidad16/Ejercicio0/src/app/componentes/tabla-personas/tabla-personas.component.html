@@ -1,0 +1,16 @@
+<table width="100%" border="1">
+    <th>Id</th>
+    <th>Nombre</th>
+    <th>Apellidos</th>
+    <th>Fecha Nacimiento</th>
+    <th>Foto</th>
+    <tbody>
+        <tr *ngFor="let Persona of listadoPersonas">
+            <td>{{Persona.id}}</td>
+            <td>{{Persona.nombre}}</td>
+            <td>{{Persona.apellidos}}</td>
+            <td>{{Persona.fechaNacimiento | date: "dd/MM/YYYY"}}</td>
+            <td>{{Persona.foto}}</td>
+        </tr>
+    </tbody>
+</table>
