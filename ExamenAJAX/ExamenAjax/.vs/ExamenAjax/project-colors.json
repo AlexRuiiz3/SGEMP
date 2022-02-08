@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "60994fab-93a5-4912-b3b8-1cec5e51e79e": {
+      "ProjectGuid": "60994fab-93a5-4912-b3b8-1cec5e51e79e",
+      "DisplayName": "ExamenAjax_API",
+      "ColorIndex": 0
+    },
+    "5793fd7a-59ba-40fb-9ea8-2e5696565959": {
+      "ProjectGuid": "5793fd7a-59ba-40fb-9ea8-2e5696565959",
+      "DisplayName": "Dal",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
