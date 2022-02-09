@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj": {}
+    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj": {
+    "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj",
+        "projectUniqueName": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj",
         "projectName": "ExamenAjax_API",
-        "projectPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj",
-        "packagesPath": "C:\\Users\\aruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aruiz\\Documents\\GitHub\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\obj\\",
+        "projectPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\ExamenAjax_API.csproj",
+        "packagesPath": "C:\\Users\\AlexRuiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlexRuiz\\Desktop\\Ciclo DAM\\Repositorios\\SGEMP\\ExamenAJAX\\ExamenAjax\\ExamenAjax_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlexRuiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -45,6 +43,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +63,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

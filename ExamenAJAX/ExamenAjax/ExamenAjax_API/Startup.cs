@@ -37,7 +37,10 @@ namespace ExamenAjax_API
                 app.UseExceptionHandler("/Error");
             }
 
+            
+
             app.UseDefaultFiles();
+
             app.UseStaticFiles();
 
             app.UseRouting();
