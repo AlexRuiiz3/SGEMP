@@ -32,7 +32,7 @@
         //Descripcion
         public string Descripcion { get; set; }
         //IDCategoria
-        public int IdCategoria { get; }
+        public int IdCategoria { get; set; }
         //Precio
         public double Precio { get; set; }
         #endregion

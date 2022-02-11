@@ -10,26 +10,26 @@ namespace ExamenAjax_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PlantasController : ControllerBase
+    public class CategoriasController : ControllerBase
     {
         // GET api/<ValuesController>/5
-        [HttpGet("{id}")]//Lo idual seria poner idCategoria, ya que el id parece que hace referencia al id de la Planta
         /*
-         * Descripcion: Esta llamada a la API devuelve un ObjectResult cuyo Value sera un listado de ClsPlanta de una categoria en concreto de la base de datos. 
-         *              El estado del ObjectResult sera OK si se obtuvo una lista con ClsPlanta.
+         * Descripcion: Esta llamada a la API devuelve un ObjectResult cuyo Value sera un listado de ClsCategoria de la base de datos. 
+         *              El estado del ObjectResult sera OK si se obtuvo una lista con ClsCategoria.
          *              En caso de que la llamada falle, el estado del ObjectResult sera:
          *                                                                                 -InternalServerError: Cuando se produzca cualquier tipo de excepcion.
-         *                                                                                 -NotFound: Cuando no haya productos en la ClsPlanta.
+         *                                                                                 -NotFound: Cuando no haya ClsCategoria en la lista.
          */
-        public ObjectResult Get(int id)
+        [HttpGet]
+        public ObjectResult Get()
         {
             ObjectResult result = new ObjectResult(new { });
-            result.Value = new List<ClsPlanta>();
+            result.Value = new List<ClsCategoria>();
             try
             {
-                result.Value = ListadosPlantaDAL.obtenerPlantasDeCategoria(id); 
+                result.Value = ListadosCategoriasDAL.obtenerCategorias();
 
-                if ((result.Value as List<ClsPlanta>) == null || (result.Value as List<ClsPlanta>).Count == 0)
+                if ((result.Value as List<ClsCategoria>) == null || (result.Value as List<ClsCategoria>).Count == 0)
                 {
                     result.StatusCode = (int)HttpStatusCode.NotFound;
                 }
